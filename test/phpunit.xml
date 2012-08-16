@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<phpunit bootstrap="./bootstrap.php" colors="true">
+  <!-- Set php INI settings, constants and globals -->
+  <php>
+    <ini name="display_errors" value="1"/>
+    <const name="BATTLENET_ID" value="FaceRip#2904"/>
+    <const name="HERO_ID" value="6732345"/>
+  </php>
+
+</phpunit>
