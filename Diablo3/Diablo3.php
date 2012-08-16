@@ -40,16 +40,8 @@ abstract class Diablo3
 
     /**
      *
-     * @var string
+     * @var CurlRequest
      */
-    protected $followerTypes = array('enchantress', 'templar', 'scoundrel');
-
-    /**
-     *
-     * @var string
-     */
-    protected $artisanTypes = array('blacksmith', 'jeweler');
-
     protected $request;
 
     /**
